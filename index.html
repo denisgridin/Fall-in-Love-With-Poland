@@ -26,8 +26,8 @@
 		<!-- Меню -->
 		<ul class="menu">
 		<a href="#" onmouseout="closeMenu()"><li class="university">Институт высоких технологий и пьезотехники ЮФУ</li></a>
-		<a href="#" onmouseout="closeMenu()"><li>Главная</li></a>
-		<a href="#" onmouseout="closeMenu()"><li>Контакты</li></a>
+		<a href="#main"  onclick="closeMenu()"  onmouseout="closeMenu()"><li>Главная</li></a>
+		<a href="#contacts"  onclick="closeMenu()"  onmouseout="closeMenu()"><li>Контакты</li></a>
 		<a href="#second" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
 		<a href=""><li class="hamburger"></li></a>
 		</ul>
@@ -39,9 +39,9 @@
 		</ul>
 
 		<div id="submenu">
-		<a href="#"><li>Главная</li></a>
+		<a href="#main" onclick="closeMenu()" onmouseover="openMenu()"><li>Главная</li></a>
 		<hr>
-		<a href="#"><li>Контакты</li></a>
+		<a href="#contacts" onclick="closeMenu()" onmouseover="openMenu()"><li>Контакты</li></a>
 		<hr>
 		<a href="#second" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
 		<hr>
@@ -62,7 +62,7 @@
 		</div>
 		<!------------------------------>
 
-<div class="main_content" onmouseover="closeMenu()">
+<div class="main_content" onmouseover="closeMenu()" id="main">
 	<h1>RFID-технология</h1>
 	<p>RFID — технология идентификации, которая предоставляет большие возможности. Наиболее распространенные RFID-метки, как и многие штрих-коды, представляют собой самоклеящиеся этикетки.<span class="mobile_text_none">Но если на штрих-коде информация хранится в графическом виде, то на метку данные заносятся и считываются при помощи радиоволн.</span></p>
 
@@ -73,6 +73,9 @@
 
 
 	</div>
+
+<a href="#main"><div class="nav_top"></div></a>
+
 <div id="second" onmouseover="closeMenu()">
 <h2>О технологии</h2>
 <div class="sec_contaner">	
@@ -128,7 +131,7 @@ RFID-система имеет некоторое количество недо�
 </div>
 
 
-<div class="contacts" onmouseout="closeMenu()">	
+<div class="contacts" onmouseout="closeMenu()" id="contacts">	
 <h2>Контакты</h2>
 <div class="cont_contaner">
 	<div class="contacts_wrap">
@@ -139,11 +142,11 @@ RFID-система имеет некоторое количество недо�
 1 курса 6 группы	</b></span>
 		</div>
 		<div class="social">
+			<a href="https://vk.com" target="_blank"></a>
+			<a href="https://www.facebook.com" target="_blank"></a>
+			<a href="mailto:denisgridin6@gmail.com?&subject=Сообщение с сайта проекта" target="_blank"></a>
 			<a href="#"></a>
-			<a href="#"></a>
-			<a href="#"></a>
-			<a href="#"></a>
-			<a href="#"></a>
+			<a href="https://twitter.com/?lang=ru" target="_blank"></a>
 		</div>
 	</div>
 	<form action="mailto:denis.gridinrnd-929364dc1@vkmessenger.com?&subject=Сообщение пользователя с сайта rfid-technology.ru"  enctype="text/plain" method="post"  target="_blank">
