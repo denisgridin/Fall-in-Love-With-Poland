@@ -718,6 +718,7 @@ textarea:focus{
     font-size: 15px;
     border-radius: 25px;
     border: 1px solid #db2949;
+    width: 125px;
     width: 100px;
     text-align: center;
     color: #db2949;
@@ -732,6 +733,7 @@ textarea:focus{
 .buttons input:last-child:hover{
     font-size: 15px;
     border-radius: 25px;
+    width: 125px;
     width: 100px;
     text-align: center;
     padding: 5px 10px;
