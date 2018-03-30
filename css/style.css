@@ -34,7 +34,7 @@ body::selection{
 
 
 /*...................................................................................*/
-@media only screen and (min-width: 769px) 
+@media only screen and (min-width: 1260px) 
 {
 
 .menu_phone{
@@ -150,7 +150,11 @@ body::selection{
 	text-align: center;
 	letter-spacing: 1px;
 	font-size: 19px;
-	margin: 15px 0px;
+	margin: 15px auto;
+    border-left: 2px solid #6e65c6;
+    border-right: 2px solid #6e65c6;
+    box-sizing:  border-box;
+
 }
 
 .main_content{
@@ -224,9 +228,25 @@ h2{
 	border: 5px solid #6e65c6;
 	font-size: 35px;
 	box-shadow: 0px 0px 7px 0px #808080;
-    width:  400px;
+    width:  500px;
     margin:  0px auto;
     top: 110px;
+    position:  relative;
+
+}
+
+
+h1{
+	text-align: center;
+	padding: 0px 0px 15px 0px;
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: #6e65c6;
+	background: white;
+	border: 5px solid #6e65c6;
+	font-size: 40px;
+	box-shadow: 0px 0px 7px 0px #808080;
+    width:  500px;
+    margin:  0px auto;
     position:  relative;
 
 }
@@ -800,6 +820,7 @@ textarea:focus{
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr;
 	box-sizing: border-box;
+	margin-left: 30px;
 }
 
 /*.footer map{
@@ -843,6 +864,7 @@ textarea:focus{
 	position: relative;
 	bottom: 0px;
 	margin-top: 50px;
+	padding: 20px 50px;
 	box-shadow: 0px 0px 17px #808080;
 }
 
@@ -874,5 +896,35 @@ textarea:focus{
 }
 
 
+.nav_top{
+	background-image: url(../img/upwards-arrow.svg);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;	
+	position: fixed;
+	z-index: 1000;
+	right: 10px;
+	top: 50vh;
+	cursor: pointer;
+	display: block;
+	transition: .5s;
+	border-radius: 50%;
+}
+
+.nav_top:hover{
+	background-image: url(../img/upwards-arrow.svg);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;	
+	position: fixed;
+	z-index: 1000;
+	right: 10px;
+	top: 50vh;
+	cursor: pointer;
+	display: block;
+	transform: rotate(360deg);
+	box-shadow: 0px 0px 7px 0px #808080;
+	border-radius: 50%;
+}
 
 }
