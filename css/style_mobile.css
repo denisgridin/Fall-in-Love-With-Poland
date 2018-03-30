@@ -19,7 +19,7 @@
 .sec_contaner{
 	display: grid;
 	padding: 20px 0px;
-	grid-template-columns: 2fr;
+	grid-template-columns: 1fr;
 	grid-column-gap: 15px;
 }
 
@@ -152,7 +152,7 @@
 	float: right;
 	margin: 7.5px 15px;
 	position: absolute;
-	right: 5px;
+	right: 0px;
 	display: none;
 }
 
@@ -744,7 +744,7 @@ textarea:focus{
     font-size: 15px;
     border-radius: 25px;
     border: 1px solid #db2949;
-    width: 100px;
+    width: 85px;
     text-align: center;
     color: #db2949;
     padding: 5px 10px;
@@ -758,7 +758,7 @@ textarea:focus{
 .buttons input:last-child:hover{
     font-size: 15px;
     border-radius: 25px;
-    width: 100px;
+    width: 85px;
     text-align: center;
     padding: 5px 10px;
     transition: .5s;
@@ -789,6 +789,7 @@ textarea:focus{
 	grid-gap: 10px;
 	padding: 20px;
 	box-sizing: border-box;
+	z-index: 1;
 }
 
 .footer_info{
