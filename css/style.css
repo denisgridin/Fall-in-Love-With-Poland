@@ -172,6 +172,19 @@ body::selection{
 	box-shadow: 0px 0px 20px 0px #6e65c6;
 }	
 
+.more:hover{
+	width: 30%;
+	height: 50px;
+	margin: 30px 35%;
+	line-height: 50px;
+	text-align: center;
+	padding: 5px;
+	border-radius: 30px;
+	background-color: #6e65c6;
+	background-image: repeating-linear-gradient(to bottom right,#667eea 0%,#764ba2 100%);
+	box-shadow: 0px 0px 30px 0px #6e65c6;
+}	
+
 h1{
 	text-align: center;
 	padding: 0px 0px 15px 0px;
@@ -190,13 +203,16 @@ hr{
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: hidden;
+	box-shadow: 0px 1px 10px 0px #555555;
+	padding: 30px 0px;
+
 }
 
 .sec_contaner{
 	display: grid;
 	padding: 20px 0px;
 	grid-template-columns: 2fr 2fr 2fr;
-	grid-column-gap: 15px;
+	grid-column-gap: 10px;
 }
 
 h2{
@@ -205,13 +221,18 @@ h2{
 	font-family: 'Montserrat Alternates', sans-serif;
 	color: #6e65c6;
 	background: white;
-	border-top: 5px solid #6e65c6;
-	border-bottom: 5px solid #6e65c6;
+	border: 5px solid #6e65c6;
+	font-size: 35px;
 	box-shadow: 0px 0px 7px 0px #808080;
+    width:  400px;
+    margin:  0px auto;
+    top: 110px;
+    position:  relative;
+
 }
 
 .link{
-	width: 370px;
+	width: 350px;
 	height: 130px;
 	background: white;
 	border-radius: 4px;
@@ -222,7 +243,7 @@ h2{
 }
 
 .link:hover{
-	width: 370px;
+	width: 350px;
 	height: 130px;
 	background: white;
 	border-radius: 4px;
@@ -518,7 +539,7 @@ h2{
 
 
 .contacts{
-
+	margin-top: 50px;
 }
 
 .contacts_wrap{
@@ -547,7 +568,24 @@ h2{
 	height: 200px;	
 	border: 17px solid #6e65c6;
 	border-radius: 200px;
-	background-image: url(../img/user.svg);
+	background: url(../img/profile_photo.png), #f2f2f2;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	box-shadow: 0px 0px 17px 0px #808080;
+	transition: .3s;
+/*	background-color: #6e65c6;
+    background-image: repeating-linear-gradient(to bottom right,#667eea 0%,#764ba2 100%);*/
+}
+
+.profile .photo:hover{
+	width: 200px;
+	height: 200px;	
+	border: 17px solid #6e65c6;
+	border-radius: 200px;
+	background: url(../img/profile_photo.png), #c9c9c9;
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
 	background-size: 100% 100%;
 	margin: 0px auto;
 	box-shadow: 0px 0px 17px 0px #808080;
@@ -813,6 +851,27 @@ textarea:focus{
 	height: 100%;
 }
 
+#screen_1{
+	width: 100%;
+	height: 150px;
+	background: url(../img/mechanics.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: -50%;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 25px #333333 inset;
+}
+
+#screen_2{
+	width: 100%;
+	height: 150px;
+	background: url(../img/mechanics.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: -50%;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 25px #333333 inset;
+}
 
 
 
