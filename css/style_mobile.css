@@ -821,5 +821,143 @@ textarea:focus{
 	box-shadow: 0px 0px 25px #333333 inset;
 }
 
+/*.....................Страница "О технологии".............................*/
+
+.tech_wrap{
+	width: 85%;
+	background: white;
+	position: relative;
+	top: 50px;
+	margin: 0px 7.5%;
+	box-shadow: 0px 2px 8px #999999;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+.tech_first{
+	width: 100%;
+	color: #808080;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.working{
+	grid-column-gap: 20px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 14px;
+	display: block;
+}
+
+.working h3{
+	font-size: 25px;
+	color: #1c8adb;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.work_img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px #1c8adb;
+	margin: 0px auto;
+	background-image: url(../img/cpu.svg);
+	background-repeat: no-repeat;
+	background-position: 60%;
+}
+
+.work_text{
+	text-align: justify;
+}
+
+
+.working_2{
+	text-align: justify;
+	line-height: 24px;
+	font-size: 14px;
+}
+
+
+
+
+.tech_second{
+	width: 100%;
+	color: #808080;
+	padding: 20px;
+	box-sizing: border-box;
+	display: block;
+}
+
+.use{
+	text-align: center;
+	line-height: 25px;
+	font-size: 16px;
+	display: block;
+}
+
+.use h3{
+	font-size: 30px;
+	color: #273b7a;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.use_text{
+	text-align: justify;
+}
+
+.use_img_1{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px #273b7a;
+	margin: 30px auto;
+	background-image: url(../img/idea.svg);
+	background-repeat: no-repeat;
+	background-position: 60%;
+}
+.use_img_2{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px #273b7a;
+	margin: 30px auto;
+	background-image: url(../img/agenda.svg);
+	background-repeat: no-repeat;
+	background-position: 60%;
+}
+
+
+.use_2{
+	text-align: justify;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+.back_1{
+	margin: 5px auto 10px auto;
+	padding: 3px;
+	background-color: #1c8adb;
+	width: 50%;
+	border-radius: 20px;
+	text-align: center;
+	color: #f2f2f2;
+}
+
+.back_2{
+	margin: 5px auto 10px auto;
+	padding: 3px;
+	background-color: #273b7a;
+	width: 50%;
+	border-radius: 20px;
+	text-align: center;
+	color: #f2f2f2;
+}
+
+
+.back{
+	text-decoration: none;
+}
 
 }

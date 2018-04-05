@@ -803,6 +803,94 @@ textarea:focus{
 	box-shadow: 0px 0px 25px #333333 inset;
 }
 
+/*.....................Страница "О технологии".............................*/
+
+.tech_wrap{
+	width: 85%;
+	background: white;
+	position: relative;
+	top: 50px;
+	margin: 0px 7.5%;
+	box-shadow: 0px 2px 8px #999999;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+.tech_first{
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1/2fr;
+	color: #808080;
+	grid-row-gap: 55px;
+	padding: 40px;
+	box-sizing: border-box;
+
+}
+
+.working{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 16px;
+
+}
+
+.working h3{
+	font-size: 30px;
+	color: #1c8adb;
+	text-align: center;
+}
+
+.work_img{
+	background-image: url(../img/cpu.svg);
+	background-repeat: no-repeat;
+	background-position: 60%;
+}
+
+.work_text{
+	text-align: justify;
+}
+
+.working_2{
+	text-align: center;
+	line-height: 25px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.use_2{
+	text-align: justify;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+.back_1{
+	margin: 5px auto 10px auto;
+	padding: 3px;
+	background-color: #1c8adb;
+	width: 50%;
+	border-radius: 20px;
+	text-align: center;
+	color: #f2f2f2;
+}
+
+.back_2{
+	margin: 5px auto 10px auto;
+	padding: 3px;
+	background-color: #273b7a;
+	width: 50%;
+	border-radius: 20px;
+	text-align: center;
+	color: #f2f2f2;
+}
+
+
+.back{
+	text-decoration: none;
+}
+
 
 }
 

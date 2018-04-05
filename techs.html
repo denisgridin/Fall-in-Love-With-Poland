@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -6,23 +5,21 @@
 	<title>RFID | Технология</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style_mobile.css">
-	<link rel="stylesheet" href="css/style_tablet.css">
 	<link rel="shortcut icon" href="https://vk.com/doc144775746_463511059?hash=bcc46ed7c7bc5dd26c&dl=262c583fd834c39ab4" type="image/x-icon">
+	<link rel="stylesheet" href="css/style_tablet.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
 	<link rel="stylesheet" href="css/materialize.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/waves.min.css">
 </head>
-<body>
-	<div class="main"  id="main">	
-	
+<body>	
 		<!-- Меню -->
 		<ul class="menu">
 		<a href="#" onmouseout="closeMenu()"><li class="university">Институт высоких технологий и пьезотехники ЮФУ</li></a>
-		<a href="#main"  onclick="closeMenu()"  onmouseout="closeMenu()"><li>Главная</li></a>
-		<a href="#screen_2"  onclick="closeMenu()"  onmouseout="closeMenu()"><li>Контакты</li></a>
-		<a href="#screen_1" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
+		<a href="index.html#main"  onclick="closeMenu()"  onmouseout="closeMenu()"><li>Главная</li></a>
+		<a href="index.html#screen_2"  onclick="closeMenu()"  onmouseout="closeMenu()"><li>Контакты</li></a>
+		<a href="tech.html#tech_first" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
 		<a href=""><li class="hamburger"></li></a>
 		</ul>
 		<!-- Меню для телефонов-->
@@ -33,16 +30,16 @@
 		</ul>
 
 		<div id="submenu">
-		<a href="#main" onclick="closeMenu()" onmouseover="openMenu()"><li>Главная</li></a>
+		<a href="index.html#main" onclick="closeMenu()" onmouseover="openMenu()"><li>Главная</li></a>
 		<hr>
-		<a href="#screen_2" onclick="closeMenu()" onmouseover="openMenu()"><li>Контакты</li></a>
+		<a href="index.html#screen_2" onclick="closeMenu()" onmouseover="openMenu()"><li>Контакты</li></a>
 		<hr>
-		<a href="#screen_1" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
+		<a href="#" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
 		<hr>
 		<ul class="techs">
-		<a href="#" onmouseover="openMenu()"><li>Принцип работы</li></a>
+		<a href="#tech_first" onmouseover="openMenu()"><li>Принцип работы</li></a>
 			<hr>
-		<a href="#" onmouseover="openMenu()"><li>Применение</li></a>
+		<a href="#tech_second" onmouseover="openMenu()"><li>Применение</li></a>
 		<hr>
 		<a href="#" onmouseover="openMenu()"><li>Компоненты</li></a>
 		<hr>
@@ -54,28 +51,67 @@
 		<hr>
 
 		</div>
-		<!------------------------------>
-	
 
 
+<div id="screen_1" onmouseover="closeMenu()" id="screen_1"><h2>О технологии</h2></div>
+
+<div class="tech_wrap" onmouseover="closeMenu()">
+	<div class="tech_first" id="tech_first">
+		<div class="working">
+			<div class="work_img"></div>
+			<div class="work_text">
+				<h3>Как это работает</h3><br><br>
+				<p>RFID-метка - миниатюрное запоминающее устройство. Она состоит из микрочипа, который хранит информацию, и антенны, с помощью которой метка передает и получает данные. Иногда RFID-метка имеет собственный источник питания (активная), но большинство меток во внешнем питании не нуждаются (пассивная).
+<br><br>
+В памяти RFID-метки хранится уникальный номер и информация. Когда метка попадает в зону регистрации, эта информация принимается RFID-считывателем.</p>
+			</div>
+		</div>
+		<div class="working_2">Для передачи данных пассивные RFID-метки используют энергию поля считывателя. Накопив необходимое количество энергии, метка начинает передачу. Дистанция регистрации пассивных меток 0,05 - 8 метров, в зависимости от типа RFID-считывателя и архитектуры метки.</div>
+	</div>
+
+<a href="index.html#main" class="back"><div class="back_1">Обратно на главную</div></a>
+
+	<div class="tech_second" id="tech_second">
+		<div class="use">
+			<div class="use_text">
+				<h3>Применение технологии</h3><br><br>
+				<p>Сфера применения RFID постоянно расширяется. Технология востребована в отраслях, где требуется контроль перемещения объектов, интеллектуальные решения автоматизации, способность работать в жестких условиях эксплуатации, безошибочность, скорость и надежность. На производстве с помощью RFID ведется учет сырья, контролируются технологические операции, обеспечиваются принципы JIT2/JIS3 и FIFO4. </p>
+			</div>
+			<div class="use_img_1"></div>
+		</div>
+		<div class="use_2">RFID-решения на производстве обеспечивают высокий уровень и стабильность качества продукции. На складе с помощью RFID в реальном времени отслеживается перемещение товаров, ускоряются процессы приема и отгрузки, повышается надежность и прозрачность операций и снижается влияние человеческого фактора. RFID-решения на складе обеспечивает защиту от воровства и хищений продукции.
+
+		</div>
+<a href="#screen_1"><div class="nav_top"></div></a>		
 
 
-
-	
-
-
+		<div class="use">
+		<div class="use_img_2"></div>			
+			<div class="use_text">
+				<h3></h3>
+				<p>В индустрии потребительских товаров и розничных продаж RFID-системы отслеживают товар на этапах поставки, от производителя до прилавка. Товар вовремя выставляется на полку, не залеживается на складе и отправляется в те магазины, где на него высокий спрос.
+<br>
+В библиотеке RFID помогает найти в хранилище и выдать читателю книги, предотвратить хищения. Исчезают очереди на выдаче. Сокращается время подбора и поиска нужного издания, упрощается инвентаризация. </p>
+			</div>
+		</div>
+		<div class="use_2">RFID-метки применяются в маркировке шуб и других меховых изделий. Каждое изделие маркируется Контрольным (идентификационным) знаком (КиЗ) со встроенной в него RFID-меткой.
+<br>
+Множество областей бизнеса и повседневной жизни можно улучшить благодаря RFID-технологии. Потенциал применения RFID огромен.
+		</div>
 
 
 	</div>
 
-<a href="#main"><div class="nav_top"></div></a>
+<a href="index.html#main" class="back"><div class="back_2">Обратно на главную</div></a>
 
+</div>
 <script src="js/script.js"></script>
 <script src="js/waves.min.js"></script>
 <script type="text/javascript">
-    Waves.attach('#submenu li, .menu li, .more, .open_1, .open_2, .open_3, .open_4, .open_5, .open_6, .icon_1,  .icon_2,  .icon_3,  .icon_4,  .icon_5,  .icon_6', ['waves-block', 'waves-float']);
+    Waves.attach('#submenu li, .menu li, .more, .open_1, .open_2, .open_3, .open_4, .open_5, .open_6, .icon_1,  .icon_2,  .icon_3,  .icon_4,  .icon_5,  .icon_6, .back_1, .back_2', ['waves-block', 'waves-float']);
     Waves.init();
 </script>     
 
 </body>
 </html>		
+	
