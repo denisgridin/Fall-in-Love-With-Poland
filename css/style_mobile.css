@@ -954,10 +954,10 @@ textarea:focus{
 
 .back_1{
 	margin: 5px auto 10px auto;
-	padding: 7px;
+	padding: 10px;
 	background-color: #1c8adb;
 	width: 50%;
-	border-radius: 20px;
+	border-radius: 30px;
 	text-align: center;
 	color: #f2f2f2;
 	font-family: 'Montserrat';
@@ -965,10 +965,10 @@ textarea:focus{
 
 .back_2{
 	margin: 5px auto 10px auto;
-	padding: 7px;
+	padding: 10px;
 	background-color: #273b7a;
 	width: 50%;
-	border-radius: 20px;
+	border-radius: 30px;
 	text-align: center;
 	color: #f2f2f2;
 	font-family: 'Montserrat';

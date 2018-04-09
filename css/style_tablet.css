@@ -37,17 +37,14 @@
 	display: none;
 	text-align: center;
 	line-height: 55px;
-
     background-color: #6e65c6;
     background-image: repeating-linear-gradient(to bottom right,#667eea 0%,#764ba2 100%);
-
-
 	z-index: 1000;
 	list-style: none;
 	height: 510px;
 	width: 100%;
 	font-size: 20px;
-	position: fixed;
+	position: absolute;
 	top: 50px;
 	font-weight: bold;
 	transition: .3s;
@@ -102,8 +99,8 @@
 
 .menu_phone{
 	max-width: 100%;
-	padding: 5px;
-	position: fixed;
+	padding: 5px 0px;
+	position: absolute;
 
     background-color: #6e65c6;
     background-image: repeating-linear-gradient(to bottom right,#667eea 0%,#764ba2 100%);
@@ -878,6 +875,7 @@ textarea:focus{
 	text-align: justify;
 	line-height: 25px;
 	font-size: 16px;
+	padding-top: 15px;
 }
 
 .use_img_1{
@@ -925,10 +923,10 @@ textarea:focus{
 
 .back_1{
 	margin: 5px auto 10px auto;
-	padding: 7px;
+	padding: 10px;
 	background-color: #1c8adb;
 	width: 30%;
-	border-radius: 20px;
+	border-radius: 27px;
 	text-align: center;
 	color: #f2f2f2;
 	font-family: 'Montserrat';
@@ -936,10 +934,10 @@ textarea:focus{
 
 .back_2{
 	margin: 5px auto 10px auto;
-	padding: 7px;
+	padding: 10px;
 	background-color: #273b7a;
 	width: 30%;
-	border-radius: 20px;
+	border-radius: 27px;
 	text-align: center;
 	color: #f2f2f2;
 	font-family: 'Montserrat';
