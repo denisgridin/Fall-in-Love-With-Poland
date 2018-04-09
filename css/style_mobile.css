@@ -841,11 +841,11 @@ textarea:focus{
 /*.....................Страница "О технологии".............................*/
 
 .tech_wrap{
-	width: 95%;
+	width: 85%;
 	background: white;
 	position: relative;
 	top: 50px;
-	margin: 0px 2.5%;
+	margin: 0px 7.5%;
 	box-shadow: 0px 2px 8px #999999;
 	padding: 10px 20px;
 	box-sizing: border-box;
@@ -854,7 +854,7 @@ textarea:focus{
 .tech_first{
 	width: 100%;
 	color: #808080;
-	padding: 10px;
+	padding: 15px;
 	box-sizing: border-box;
 }
 
@@ -901,7 +901,7 @@ textarea:focus{
 .tech_second{
 	width: 100%;
 	color: #808080;
-	padding: 10px;
+	padding: 15px;
 	box-sizing: border-box;
 	display: block;
 }
