@@ -792,12 +792,29 @@ textarea:focus{
 	width: 40px;
 	height: 40px;	
 	position: fixed;
-	z-index: 1000;
+	z-index: 500;
 	right: 10px;
 	top: 50vh;
 	cursor: pointer;
 	display: block;
 }
+
+.nav_top:hover{
+	background-image: url(../img/upwards-arrow.svg);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;	
+	position: fixed;
+	z-index: 500;
+	right: 10px;
+	top: 50vh;
+	cursor: pointer;
+	display: block;
+	transform: rotate(360deg);
+	box-shadow: 0px 0px 7px 0px #808080;
+	border-radius: 50%;
+}
+
 
 #screen_1{
 	width: 100%;
@@ -937,22 +954,24 @@ textarea:focus{
 
 .back_1{
 	margin: 5px auto 10px auto;
-	padding: 3px;
+	padding: 7px;
 	background-color: #1c8adb;
 	width: 50%;
 	border-radius: 20px;
 	text-align: center;
 	color: #f2f2f2;
+	font-family: 'Montserrat';
 }
 
 .back_2{
 	margin: 5px auto 10px auto;
-	padding: 3px;
+	padding: 7px;
 	background-color: #273b7a;
 	width: 50%;
 	border-radius: 20px;
 	text-align: center;
 	color: #f2f2f2;
+	font-family: 'Montserrat';
 }
 
 

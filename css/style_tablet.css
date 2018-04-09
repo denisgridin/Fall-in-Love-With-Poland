@@ -847,6 +847,9 @@ textarea:focus{
 	background-image: url(../img/cpu.svg);
 	background-repeat: no-repeat;
 	background-position: 60%;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 0px transparent;
 }
 
 .work_text{
@@ -860,35 +863,122 @@ textarea:focus{
 	text-align: justify;
 }
 
+.tech_second{
+	width: 100%;
+	display: grid;
+	grid-template-rows: 1fr 1/2fr 1fr 1/2fr;
+	color: #808080;
+	padding: 20px;
+	box-sizing: border-box;
+	grid-row-gap: 35px;
+}
+
+
 .use_2{
 	text-align: justify;
 	line-height: 25px;
 	font-size: 16px;
 }
 
+.use_img_1{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px transparent;
+	margin: 30px auto;
+	background-image: url(../img/idea.svg);
+	background-repeat: no-repeat;
+	background-position: 60%;
+}
+.use_img_2{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px transparent;
+	margin: 30px auto;
+	background-image: url(../img/agenda.svg);
+	background-repeat: no-repeat;
+	background-position: 60%;
+}
+
+
+.use{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 30px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 16px;
+}
+
+.use h3{
+	font-size: 30px;
+	color: #273b7a;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.use_text{
+	text-align: justify;
+}
+
+
 .back_1{
 	margin: 5px auto 10px auto;
-	padding: 3px;
+	padding: 7px;
 	background-color: #1c8adb;
-	width: 50%;
+	width: 30%;
 	border-radius: 20px;
 	text-align: center;
 	color: #f2f2f2;
+	font-family: 'Montserrat';
 }
 
 .back_2{
 	margin: 5px auto 10px auto;
-	padding: 3px;
+	padding: 7px;
 	background-color: #273b7a;
-	width: 50%;
+	width: 30%;
 	border-radius: 20px;
 	text-align: center;
 	color: #f2f2f2;
+	font-family: 'Montserrat';
 }
 
 
 .back{
 	text-decoration: none;
+}
+
+.nav_top{
+	background-image: url(../img/upwards-arrow.svg);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;	
+	position: fixed;
+	z-index: 500;
+	right: 10px;
+	top: 50vh;
+	cursor: pointer;
+	display: block;
+	transition: .5s;
+	border-radius: 50%;
+}
+
+.nav_top:hover{
+	background-image: url(../img/upwards-arrow.svg);
+	background-size: 100% 100%;
+	width: 40px;
+	height: 40px;	
+	position: fixed;
+	z-index: 500;
+	right: 10px;
+	top: 50vh;
+	cursor: pointer;
+	display: block;
+	transform: rotate(360deg);
+	box-shadow: 0px 0px 7px 0px #808080;
+	border-radius: 50%;
 }
 
 

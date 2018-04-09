@@ -839,7 +839,7 @@ textarea:focus{
 	width: 40px;
 	height: 40px;	
 	position: fixed;
-	z-index: 1000;
+	z-index: 500;
 	right: 10px;
 	top: 50vh;
 	cursor: pointer;
@@ -854,7 +854,7 @@ textarea:focus{
 	width: 40px;
 	height: 40px;	
 	position: fixed;
-	z-index: 1000;
+	z-index: 500;
 	right: 10px;
 	top: 50vh;
 	cursor: pointer;
@@ -905,6 +905,11 @@ textarea:focus{
 }
 
 .work_img{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px #1c8adb;
+	margin: 30px auto;
 	background-image: url(../img/cpu.svg);
 	background-repeat: no-repeat;
 	background-position: 60%;
@@ -954,8 +959,23 @@ textarea:focus{
 	text-align: justify;
 }
 
-.use_img{
+.use_img_1{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px #273b7a;
+	margin: 30px auto;
 	background-image: url(../img/idea.svg);
+	background-repeat: no-repeat;
+	background-position: 60%;
+}
+.use_img_2{
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 8px #273b7a;
+	margin: 30px auto;
+	background-image: url(../img/agenda.svg);
 	background-repeat: no-repeat;
 	background-position: 60%;
 }
@@ -976,22 +996,25 @@ textarea:focus{
 
 .back_1{
 	margin: 5px auto 10px auto;
-	padding: 3px;
+	padding: 10px;
 	background-color: #1c8adb;
-	width: 50%;
+	width: 20%;
 	border-radius: 20px;
 	text-align: center;
 	color: #f2f2f2;
+	font-family: 'Montserrat';
+
 }
 
 .back_2{
 	margin: 5px auto 10px auto;
-	padding: 3px;
+	padding: 10px;
 	background-color: #273b7a;
-	width: 50%;
+	width: 20%;
 	border-radius: 20px;
 	text-align: center;
 	color: #f2f2f2;
+	font-family: 'Montserrat';
 }
 
 
