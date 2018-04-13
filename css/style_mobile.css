@@ -952,7 +952,7 @@ textarea:focus{
 	font-size: 16px;
 }
 
-.back_1{
+#back_1{
 	margin: 5px auto 10px auto;
 	padding: 10px;
 	background-color: #1c8adb;
@@ -963,7 +963,7 @@ textarea:focus{
 	font-family: 'Montserrat';
 }
 
-.back_2{
+#back_2{
 	margin: 5px auto 10px auto;
 	padding: 10px;
 	background-color: #273b7a;
