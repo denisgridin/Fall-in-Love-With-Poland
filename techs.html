@@ -10,6 +10,7 @@
  	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/waves.min.css">
+	<link rel="stylesheet" href="css/nprogress.css">
 </head>
 <body>	
 		<!-- Меню -->
@@ -73,7 +74,7 @@
 		<div class="use">
 			<div class="use_text">
 				<h3>Применение технологии</h3><br><br>
-				<p>Сфера применения RFID постоянно расширяется. Технология востребована в отраслях, где требуется контроль перемещения объектов, интеллектуальные решения автоматизации, способность работать в жестких условиях эксплуатации, безошибочность, скорость и надежность. На производстве с помощью RFID ведется учет сырья, контролируются технологические операции, обеспечиваются принципы JIT2/JIS3 и FIFO4. </p>
+				<p>Сфера применения RFID постоянно расширяется. Технология востребована в отраслях, где требуется контроль перемещения объектов, интеллектуальные решения автоматизации, способность работать в жестких условиях эксплуатации, безошибочность, скорость и надежность. На производстве с помощью RFID ведется учет сырья, контролируются технологические операции, обеспечиваются принципы <a id="desc" data-title="Text">JIT<span><b>Система JIT</b> <i>(англ. Just In Time – точно в срок)</i> – это наиболее распространенная в мире логистическая концепция, которая воплощает один из основных принципов бережливого производства.</span></a>/JIS и FIFO.</p>
 			</div>
 			<div class="use_img_1"></div>
 		</div>
@@ -103,13 +104,23 @@
 <a href="index.html#main" class="back"><div id="back_2">Обратно на главную</div></a>
 
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/waves.min.js"></script>
 <script type="text/javascript">
     Waves.attach('#submenu li, .menu li, .more, .open_1, .open_2, .open_3, .open_4, .open_5, .open_6, .icon_1,  .icon_2,  .icon_3,  .icon_4,  .icon_5,  .icon_6, .back_1, .back_2', ['waves-block', 'waves-float']);
     Waves.init();
 </script>     
-
+<script src="js/nprogress.js"></script>
+<script>
+	$(document).ready (function () {
+		NProgress.start ();
+		NProgress.set(0,6);
+		setTimeout( function(){
+			NProgress.done()
+		}, 3000)
+	});
+</script>
 </body>
 </html>		
 	

@@ -13,3 +13,16 @@ function closeMenu(){
 	close.style.display = "none";
 	menu.style.display = "none";
 }
+
+//function open_desc(){
+//	var desc_info = document.createElement('div');
+//	desc_info.className = "desc_info";
+//	desc_info.appendChild(document.createTextNode("РАз лваоыд"));
+//	desc_info.style.color = "black";
+//	desc_info.style.position = "absolute";
+//	desc_1.appendChild(desc_info);
+//
+//	setTimeout(function(){
+//		desc_1.removeChild(desc_info);
+//	}, 2000);
+//}
