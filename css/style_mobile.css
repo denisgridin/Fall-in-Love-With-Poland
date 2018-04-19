@@ -1002,4 +1002,38 @@ textarea:focus{
 	text-decoration: none;
 }
 
+a#desc {
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+
+
+}
+a#desc:hover {
+    cursor: help;
+    position: relative;
+}
+a#desc span {
+    display: none;
+}
+a#desc:hover span {
+    padding: 7px;
+    display: none;
+    font-size: 14px;
+    z-index: 100;
+    background: #f2f2f2;
+    left: 0px;
+    margin: 10px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none;
+    box-shadow: 0px 1px 5px #808080;
+    color: #808080;
+    font-weight: lighter;
+}
+
+
+
 }
