@@ -5,51 +5,54 @@
 	<title>RFID | Технология</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style_mobile.css">
-	<link rel="shortcut icon" href="https://vk.com/doc144775746_463511059?hash=bcc46ed7c7bc5dd26c&dl=262c583fd834c39ab4" type="image/x-icon">
 	<link rel="stylesheet" href="css/style_tablet.css">
- 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat" rel="stylesheet">
+	<link rel="shortcut icon" href="https://vk.com/doc144775746_463511059?hash=bcc46ed7c7bc5dd26c&dl=262c583fd834c39ab4" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arimo|Noto+Sans" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/waves.min.css">
 	<link rel="stylesheet" href="css/nprogress.css">
 </head>
 <body>	
-		<!-- Меню -->
-		<ul class="menu">
+	<!-- Меню -->
+<nav>
+	<ul class="menu">
 		<a href="#" onmouseout="closeMenu()"><li class="university">Институт высоких технологий и пьезотехники ЮФУ</li></a>
 		<a href="index.html#main"  onclick="closeMenu()"  onmouseout="closeMenu()"><li>Главная</li></a>
 		<a href="index.html#screen_2"  onclick="closeMenu()"  onmouseout="closeMenu()"><li>Контакты</li></a>
 		<a href="techs.html#screen_1" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
 		<a href=""><li class="hamburger"></li></a>
-		</ul>
+	</ul>
+</nav>
 		<!-- Меню для телефонов-->
-		<ul class="menu_phone">
+<nav>
+	<ul class="menu_phone">
 		<a href="#"><li class="university">Институт высоких технологий и пьезотехники ЮФУ</li></a>
 		<a href="#" ><li id="hamburger" onclick="openMenu()"></li></a>
 		<a href="#"><li id="close" onclick="closeMenu()"></li></a>
-		</ul>
-
-		<div id="submenu">
-		<a href="index.html#main" onclick="closeMenu()" onmouseover="openMenu()"><li>Главная</li></a>
+	</ul>
+</nav>		
+<div id="submenu">
+	<a href="index.html#main" onclick="closeMenu()" onmouseover="openMenu()"><li>Главная</li></a>
 		<hr>
-		<a href="index.html#screen_2" onclick="closeMenu()" onmouseover="openMenu()"><li>Контакты</li></a>
+	<a href="index.html#screen_2" onclick="closeMenu()" onmouseover="openMenu()"><li>Контакты</li></a>
 		<hr>
-		<a href="techs.html#screen_1" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
+	<a href="techs.html#screen_1" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
 		<hr>
-		<ul class="techs">
+	<ul class="techs">
 		<a href="techs.html#screen_1" onmouseover="openMenu()" onclick="closeMenu()"><li>Принцип работы</li></a>
 			<hr>
 		<a href="techs.html#back_1" onmouseover="openMenu()" onclick="closeMenu()"><li>Применение</li></a>
-		<hr>
+			<hr>
 		<a href="#" onmouseover="openMenu()" onclick="closeMenu()"><li>Компоненты</li></a>
-		<hr>
+			<hr>
 		<a href="#" onmouseover="openMenu()" onclick="closeMenu()"><li>Критика</li></a>
-		<hr>
+			<hr>
 		<a href="#" onmouseover="openMenu()" onclick="closeMenu()"><li>Плюсы</li></a>
-		<hr>
+			<hr>
 		<a href="#" onmouseover="openMenu()" onclick="closeMenu()"><li>Минусы</li></a></ul>
-		<hr>
-
-		</div>
+			<hr>
+</div>
 
 
 <div id="screen_1" onmouseover="closeMenu()" id="screen_1"><h2>О технологии</h2></div>
@@ -57,7 +60,7 @@
 <div class="tech_wrap" onmouseover="closeMenu()">
 	<div class="tech_first" id="tech_first">
 		<div class="working">
-			<div class="work_img"></div>
+			<div class="work_img"><img src="img/rfid.png" alt=""></div>
 			<div class="work_text">
 				<h3>Как это работает</h3><br><br>
 				<p>RFID-метка - миниатюрное запоминающее устройство. Она состоит из микрочипа, который хранит информацию, и антенны, с помощью которой метка передает и получает данные. Иногда RFID-метка имеет собственный источник питания (активная), но большинство меток во внешнем питании не нуждаются (пассивная).
@@ -105,7 +108,6 @@
 
 <div id="tech_third">
 	<h3>Компоненты</h3>
-	<h4>RFID</h4>
 	<div class="tech_third_wrap">
 	<div class="comp">
 		<div class="comp_inf"><b>RFID-метки</b> — устройства, способные хранить и передавать данные. В памяти меток содержится уникальный идентификационный код. У некоторых RFID-меток память может перезаписываться.</div>	
