@@ -19,7 +19,7 @@
 		<a href="#" onmouseout="closeMenu()"><li class="university">Институт высоких технологий и пьезотехники ЮФУ</li></a>
 		<a href="index.html#main"  onclick="closeMenu()"  onmouseout="closeMenu()"><li>Главная</li></a>
 		<a href="index.html#screen_2"  onclick="closeMenu()"  onmouseout="closeMenu()"><li>Контакты</li></a>
-		<a href="techs.html#screen_1" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
+		<a  href="javascript://0" onclick="slowScroll ('#screen_1')" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
 		<a href=""><li class="hamburger"></li></a>
 	</ul>
 </nav>
@@ -36,12 +36,12 @@
 		<hr>
 	<a href="index.html#screen_2" onclick="closeMenu()" onmouseover="openMenu()"><li>Контакты</li></a>
 		<hr>
-	<a href="techs.html#screen_1" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
+	<a  href="javascript://0" onclick="slowScroll ('#screen_1')" id="about" onclick="closeMenu()" onmouseover="openMenu()"><li>О технологии</li></a>
 		<hr>
 	<ul class="techs">
-		<a href="techs.html#screen_1" onmouseover="openMenu()" onclick="closeMenu()"><li>Принцип работы</li></a>
+		<a  href="javascript://0" onclick="slowScroll ('#screen_1')" onmouseover="openMenu()" onmouseup="closeMenu()"><li>Принцип работы</li></a>
 			<hr>
-		<a href="techs.html#back_1" onmouseover="openMenu()" onclick="closeMenu()"><li>Применение</li></a>
+		<a  href="javascript://0" onclick="slowScroll ('#back_1')" onmouseover="openMenu()" onmouseup="closeMenu()"><li>Применение</li></a>
 			<hr>
 		<a href="#" onmouseover="openMenu()" onclick="closeMenu()"><li>Компоненты</li></a>
 			<hr>
@@ -83,7 +83,7 @@
 		<div class="use_2">RFID-решения на производстве обеспечивают высокий уровень и стабильность качества продукции. На складе с помощью RFID в реальном времени отслеживается перемещение товаров, ускоряются процессы приема и отгрузки, повышается надежность и прозрачность операций и снижается влияние человеческого фактора. RFID-решения на складе обеспечивает защиту от воровства и хищений продукции.
 
 		</div>
-<a href="#screen_1"><div class="nav_top"></div></a>		
+<a  href="javascript://0" onclick="slowScroll ('#screen_1')"><div class="nav_top"></div></a>		
 
 
 		<div class="use">
@@ -138,7 +138,7 @@
 <script src="js/script.js"></script>
 <script src="js/waves.min.js"></script>
 <script type="text/javascript">
-    Waves.attach('#submenu li, .menu li, .more, .open_1, .open_2, .open_3, .open_4, .open_5, .open_6, .icon_1,  .icon_2,  .icon_3,  .icon_4,  .icon_5,  .icon_6, .back_1, .back_2', ['waves-block', 'waves-float']);
+    Waves.attach('#submenu li, .menu li, back_1, back_2', ['waves-block', 'waves-float']);
     Waves.init();
 </script>     
 <script src="js/nprogress.js"></script>
@@ -151,6 +151,15 @@
 		}, 3000)
 	});
 </script>
+<script>
+  function slowScroll (id) {
+    var offset = 0;
+    $('html, body').animate ({
+      scrollTop: $(id).offset ().top - offset
+    }, 500);
+    return false;
+  }
+  </script>
 </body>
 </html>		
 	

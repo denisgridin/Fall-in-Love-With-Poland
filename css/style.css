@@ -161,7 +161,7 @@ body{
 	border-radius: 30px;
 	background-color: #6e65c6;
 	background-image: repeating-linear-gradient(to bottom right,#667eea 0%,#764ba2 100%);
-	box-shadow: 0px 0px 20px 0px #6e65c6;
+ 	box-shadow: 0 2px 3px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
 }	
 
 .more:hover{
@@ -201,52 +201,56 @@ hr{
 
 h2{
 	text-align: center;
-	padding: 0px 0px 15px 0px;
+	padding: 10px;
 	font-family: 'Montserrat', sans-serif;
 	color: #6e65c6;
 	background: white;
 	border: 5px solid #6e65c6;
 	font-size: 35px;
-	box-shadow: 0px 0px 4px 0px #808080;
+ 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     width:  500px;
     margin:  0px auto;
-    top: 110px;
     position:  relative;
+    top: 110px;
 }
 
 
 h1{
 	text-align: center;
+	padding: 10px;
 	font-family: 'Montserrat', sans-serif;
 	color: #6e65c6;
 	background: white;
 	border: 5px solid #6e65c6;
 	font-size: 40px;
-	box-shadow: 0px 0px 4px 0px #808080;
+ 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     width:  500px;
     margin:  0px auto;
     position:  relative;
-    padding: 5px 15px;
+}
+
+.link h3{
+	color: #777777;
 }
 
 .link{
-	width: 350px;
-	height: 130px;
+	min-width: 355px;
+	width: 80%;
 	background: white;
 	border-radius: 4px;
 	margin: 25px auto;
-	padding: 25px;
+	padding: 25px 25px 0px;
 	box-shadow: 0px 1px 3px 0px #808080;
 	transition: 0.5s;
 }
 
 .link:hover{
-	width: 350px;
-	height: 130px;
+	min-width: 355px;
+	width: 80%;
 	background: white;
 	border-radius: 4px;
 	margin: 25px auto;
-	padding: 25px;
+	padding: 25px 25px 0px;
 	box-shadow: 0px 1px 10px 0px #808080;
 }
 
@@ -267,7 +271,7 @@ h1{
     background-size: 50% 50%, 100% 100%;
     background-position: 50% 50%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
-    box-shadow: 0px 0px 10px 0px #0000ff;
+    box-shadow: 0px 2px 8px 0px #808080;
     float: left;
 }
 
@@ -300,7 +304,7 @@ h1{
 	color: #f2f2f2;
 	padding: 5px 10px;
 	margin: 10px 5px 10px 40px;
-	box-shadow: 0px 0px 10px 0px #0000ff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 /*...................2...................*/
 
@@ -313,7 +317,7 @@ h1{
 	background-size: 50% 50%, 100% 100%;
     background-position: 50% 50%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
-    box-shadow: 0px 0px 10px 0px #cc00ff;
+    box-shadow: 0px 2px 8px 0px #808080;
     float: left;
 }
 
@@ -346,7 +350,7 @@ h1{
 	color: #f2f2f2;
 	padding: 5px 10px;
 	margin: 10px 5px 10px 40px;
-	box-shadow: 0px 0px 10px 0px #cc00ff;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 /*.......................3..........................*/
@@ -359,7 +363,7 @@ h1{
 	background-size: 50% 50%, 100% 100%;
     background-position: 50% 50%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
-    box-shadow: 0px 0px 10px 0px #ffae00;
+    box-shadow: 0px 2px 8px 0px #808080;
     float: left;
 }
 
@@ -373,10 +377,10 @@ h1{
 .open_3{
 	font-size: 17px;
 	border-radius: 20px;
-	border: 1px solid #ffba27;
+	border: 1px solid #ffae00;
 	width: 100px;
 	text-align: center;
-	color: #ffba27;
+	color: #ffae00;
 	padding: 5px 10px;
 	margin: 10px 5px 10px 40px;
 	transition: .5s;
@@ -392,7 +396,7 @@ h1{
 	color: #f2f2f2;
 	padding: 5px 10px;
 	margin: 10px 5px 10px 40px;
-	box-shadow: 0px 0px 10px 0px #ffae00;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 /*...........................4..............................*/
@@ -406,7 +410,7 @@ h1{
 	background-size: 50% 50%, 100% 100%;
     background-position: 50% 50%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
-    box-shadow: 0px 0px 10px 0px #4b0082;
+    box-shadow: 0px 2px 8px 0px #808080;
     float: left;
 }
 
@@ -439,7 +443,7 @@ h1{
 	color: #f2f2f2;
 	padding: 5px 10px;
 	margin: 10px 5px 10px 40px;
-	box-shadow: 0px 0px 10px 0px #4b0082;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 /*.......................5..........................*/
@@ -452,7 +456,7 @@ h1{
 	background-size: 50% 50%, 100% 100%;
     background-position: 50% 50%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
-    box-shadow: 0px 0px 10px 0px #5cdba8;
+    box-shadow: 0px 2px 8px 0px #808080;
     float: left;
 }
 
@@ -485,7 +489,7 @@ h1{
 	color: #f2f2f2;
 	padding: 5px 10px;
 	margin: 10px 5px 10px 40px;
-	box-shadow: 0px 0px 10px 0px #5cdba8;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 /*.......................6..........................*/
@@ -498,7 +502,7 @@ h1{
 	background-size: 50% 50%, 100% 100%;
     background-position: 50% 50%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
-    box-shadow: 0px 0px 10px 0px #d80027;
+    box-shadow: 0px 2px 8px 0px #808080;
     float: left;
 }
 
@@ -531,7 +535,7 @@ h1{
 	color: #f2f2f2;
 	padding: 5px 10px;
 	margin: 10px 5px 10px 40px;
-	box-shadow: 0px 0px 10px 0px #d80027;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 
@@ -555,7 +559,7 @@ h1{
 	border-radius: 4px;
 	margin: 15px auto;
 	padding: 15px;
-	box-shadow: 0px 0px 17px 0px #808080;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
 
 }
@@ -837,8 +841,10 @@ textarea:focus{
 	top: 50vh;
 	cursor: pointer;
 	display: block;
-	transition: .5s;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	border-radius: 50%;
+	filter: opacity(0.8);
+	transition: 0.3s;
 }
 
 .nav_top:hover{
@@ -852,9 +858,9 @@ textarea:focus{
 	top: 50vh;
 	cursor: pointer;
 	display: block;
-	transform: rotate(360deg);
-	box-shadow: 0px 0px 7px 0px #808080;
+ 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	border-radius: 50%;
+	filter: opacity(1);
 }
 
 /*.....................Страница "О технологии".............................*/
