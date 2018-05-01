@@ -748,7 +748,7 @@ h2{
 }
 
 .work_img img{
-	width: 200px;
+	width: 100%;
 	height: auto;
 }
 
@@ -792,25 +792,19 @@ h2{
 	text-align: justify;
 }
 
-.use_img_1{
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	box-shadow: 0px 0px 8px #273b7a;
-	margin: 30px auto;
-	background-image: url(../img/idea.svg);
-	background-repeat: no-repeat;
-	background-position: 60%;
+.use_img_1 img{
+	width: 100%;
+	height: auto;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin: 20px auto;
+
 }
-.use_img_2{
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	box-shadow: 0px 0px 8px #273b7a;
-	margin: 30px auto;
-	background-image: url(../img/agenda.svg);
-	background-repeat: no-repeat;
-	background-position: 60%;
+
+.use_img_2 img{
+	width: 100%;
+	height: auto;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin-top: 25px;
 }
 
 
@@ -829,7 +823,8 @@ h2{
 	text-align: center;
 	color: #f2f2f2;
 	font-family: 'Montserrat';
-	box-shadow: 0px 1px 3px #808080;	
+	box-shadow: 0px 1px 3px #808080;
+	transition: .3s;	
 }
 
 #back_2{
@@ -841,6 +836,7 @@ h2{
 	text-align: center;
 	color: #f2f2f2;
 	font-family: 'Montserrat';
+	transition: .3s;
 }
 
 #back_1:hover{
@@ -925,6 +921,7 @@ a#desc:hover span {
 .comp{
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
+	margin: 20px auto;
 }
 
 .comp .comp_img img{
@@ -942,7 +939,7 @@ a#desc:hover span {
 
 #tech_third h3{
 	color: #ffc64d;
-	font-size: 35px;
+	font-size: 30px;
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 30px;

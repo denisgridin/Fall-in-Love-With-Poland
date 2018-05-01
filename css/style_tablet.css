@@ -825,12 +825,10 @@ textarea:focus{
 	text-align: center;
 }
 
-.work_img{
-	background-image: url(../img/rfid.png);
-	background-repeat: no-repeat;
-	background-position: 60%;
-	width: 100%;
-	height: 100%;
+.work_img img{
+	width: 220px;
+	height: auto;
+	margin-top: 100px;
 	box-shadow: 0px 0px transparent;
 }
 
@@ -863,26 +861,20 @@ textarea:focus{
 	padding-top: 15px;
 }
 
-.use_img_1{
+.use_img_1 img{
 	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	box-shadow: 0px 0px 8px transparent;
-	margin: 30px auto;
-	background-image: url(../img/idea.svg);
-	background-repeat: no-repeat;
-	background-position: 60%;
+	height: auto;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin-top: 120px;
 }
-.use_img_2{
+
+.use_img_2 img{
 	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	box-shadow: 0px 0px 8px transparent;
-	margin: 30px auto;
-	background-image: url(../img/agenda.svg);
-	background-repeat: no-repeat;
-	background-position: 60%;
+	height: auto;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin-top: 120px;
 }
+
 
 
 .use{
@@ -915,6 +907,7 @@ textarea:focus{
 	text-align: center;
 	color: #f2f2f2;
 	font-family: 'Montserrat';
+	transition: .3s;
 }
 
 #back_2{
@@ -926,6 +919,7 @@ textarea:focus{
 	text-align: center;
 	color: #f2f2f2;
 	font-family: 'Montserrat';
+	transition: .3s;
 }
 
 #back_1:hover{
@@ -1021,6 +1015,55 @@ a#desc:hover span {
 }
 
 
+#tech_third{
+	padding: 40px;
+	color: #808080;
+	margin: 0px auto;
+	width: 80%;
+}
+
+
+#tech_third_wrap{
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-row-gap: 120px;
+	text-align: right;
+}
+
+
+.comp{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding-bottom: 30px;
+	grid-gap: 50px;
+}
+
+.comp .comp_img img{
+	width: 200px;
+	text-align: right;
+}
+
+.comp .comp_img {
+	text-align: center;
+}
+
+.comp .comp_inf{
+	padding-left: 65px;
+	background: url(../img/maps-and-flags.svg);
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	text-align: left;
+	font-size: 20px;
+
+}
+
+#tech_third h3{
+	color: #ffc64d;
+	font-size: 48px;
+	text-align: center;
+	padding-bottom: 40px;
+	font-family: 'Montserrat';
+}
 
 }
 
