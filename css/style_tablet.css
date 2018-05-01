@@ -1014,7 +1014,6 @@ a#desc:hover span {
     font-weight: lighter;
 }
 
-
 #tech_third{
 	padding: 40px;
 	color: #808080;
@@ -1053,7 +1052,6 @@ a#desc:hover span {
 	background-size: 40px 40px;
 	background-repeat: no-repeat;
 	text-align: left;
-	font-size: 20px;
 
 }
 
@@ -1064,6 +1062,7 @@ a#desc:hover span {
 	padding-bottom: 40px;
 	font-family: 'Montserrat';
 }
+
 
 }
 
