@@ -1063,7 +1063,133 @@ a#desc:hover span {
 	font-family: 'Montserrat';
 }
 
-
+footer{
+	width: 100%;
+	border-top: 38px solid #6e67ca;
+	box-shadow: 0 -1px 3px rgba(0,0,0,0.12), 0 -1px 2px rgba(0,0,0,0.24);
+	display: grid;
+	grid-template-columns: 2fr 1fr;
 }
+
+footer section:nth-child(1){
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+footer section:nth-child(2){
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+footer a:visited{
+	color: #808080;
+}
+
+footer .map{
+	margin: 30px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+footer .footer_info{
+	margin-top: 30px;
+}
+
+footer .footer_info li{
+	color: #808080;
+	letter-spacing: 1px;
+	list-style: none;
+	padding-left: 40px;
+}
+
+footer .footer_info li a{
+	color: #808080;
+}
+
+footer .footer_info li a:hover{
+	color: #333333;
+}
+
+footer .footer_info li:nth-child(1){
+	background: url(../img/placeholder.svg);
+	background-position: 0px 5px;
+	background-size: 25px auto;
+	background-repeat: no-repeat;
+	padding-bottom: 10px;
+}
+
+footer .footer_info li:nth-child(2){
+	background: url(../img/icon.svg);
+	background-size: 25px auto;
+	background-repeat: no-repeat;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+footer .footer_info li:nth-child(3){
+	background: url(../img/earth-globe.svg);
+	background-size: 25px auto;
+	background-repeat: no-repeat;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+footer .caption{
+	display: none;
+}
+
+footer .links{
+	margin: 30px;
+}
+
+footer .links li:nth-child(1){
+	color: #1081e0;
+	list-style: none;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+}
+footer .links li:nth-child(3){
+	color: #1081e0;
+	list-style: none;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+}
+
+footer .links li:nth-child(2){
+	color: #808080;
+	list-style: none;
+	padding-bottom: 15px;
+	line-height: 30px;
+	background: url(../img/download.svg);
+	background-repeat: no-repeat;
+	background-size: 30px auto;
+	background-position: 160px 0px;
+}
+
+footer .links li:nth-child(4){
+	color: #808080;
+	list-style: none;
+	padding-bottom: 15px;
+	line-height: 30px;
+	background: url(../img/download.svg);
+	background-repeat: no-repeat;
+	background-size: 30px auto;
+	background-position: 160px 0px;
+}
+	
+footer .links a{
+	text-decoration: none;
+	color: #808080;
+}	
+
+footer .links a:hover{
+	text-decoration: none;
+	color: #333;
+}	
 
 }
