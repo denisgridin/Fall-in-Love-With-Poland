@@ -43,13 +43,13 @@
 			<hr>
 		<a  href="javascript://0" onclick="slowScroll ('#back_1')" onmouseover="openMenu()" onmouseup="closeMenu()"><li>Применение</li></a>
 			<hr>
-		<a href="#" onmouseover="openMenu()" onclick="closeMenu()"><li>Компоненты</li></a>
+		<a  href="javascript://0" onclick="slowScroll ('#components')" onmouseover="openMenu()" onclick="closeMenu()"><li>Компоненты</li></a>
 			<hr>
-		<a href="#" onmouseover="openMenu()" onclick="closeMenu()"><li>Критика</li></a>
+		<a  href="javascript://0" onclick="slowScroll ('#critical')" onmouseover="openMenu()" onclick="closeMenu()"><li>Критика</li></a>
 			<hr>
-		<a href="#" onmouseover="openMenu()" onclick="closeMenu()"><li>Плюсы</li></a>
+		<a href="javascript://0" onclick="slowScroll ('#pluses')" onmouseover="openMenu()" onclick="closeMenu()"><li>Плюсы</li></a>
 			<hr>
-		<a href="#" onmouseover="openMenu()" onclick="closeMenu()"><li>Минусы</li></a></ul>
+		<a href="javascript://0" onclick="slowScroll ('#minuses')" onmouseover="openMenu()" onclick="closeMenu()"><li>Минусы</li></a></ul>
 			<hr>
 </div>
 
@@ -103,10 +103,10 @@
 
 	</div>
 
-<a href="index.html#main" class="back"><div id="back_2">Обратно на главную</div></a>
+<a href="index.html#main" class="back"><div id="back_1">Обратно на главную</div></a>
 
 <div id="tech_third">
-	<h3>Компоненты</h3>
+	<h3 id="components">Компоненты</h3>
 	<div class="tech_third_wrap">
 	<div class="comp">
 		<div class="comp_inf"><b>RFID-метки</b> — устройства, способные хранить и передавать данные. В памяти меток содержится уникальный идентификационный код. У некоторых RFID-меток память может перезаписываться.</div>	
@@ -125,20 +125,81 @@
 	</div>
 </div>
 
+<a href="index.html#main" class="back"><div id="back_1">Обратно на главную</div></a>
 
+<section class="assess" id="assess">
+	<div class="plus">
+		<h4 id="pluses">Преимущества</h4>
+		<div class="plus_list">Бесконтактная работа - RFID-метка может быть прочитана без какого-либо физического контакта между меткой и ридером</div>
+		<div class="plus_list">Перезапись данных - данные RFID-метки с перезаписью (RW-метки) могут быть перезаписаны большое число раз.</div>
+		<div class="plus_list">Работа вне прямой видимости - чтобы RFID-метка была прочитана RFID-ридером, в общем случае не требуется ее нахождения в зоне прямой видимости ридера.</div>
+		<div class="plus_list">Разнообразие диапазонов чтения - диапазон чтения RFID-метки может со­ставлять от нескольких сантиметров до 30 метров и более.</div>
+		<div class="plus_list">Широкие возможности хранения данных - RFID-метка может хранить ин­формацию объемом от нескольких байтов до практически неограниченного количества данных.</div>
+	</div>
+	<div class="minus">
+		<h4 id="minuses">Недостатки</h4>
+		<div class="minus_list">Невысокие рабочие характеристики в присутствии радионепрозрачных и радиопоглощающих объектов. Такое поведение зависит от частоты. Технология в современном ее состоянии плохо работает с такими материалами, а в некоторых случаях отказывает полностью.</div>
+		<div class="minus_list">Воздействие факторов окружающей среды. Условия окружающей среды могут оказывать негативное влияние на RFID-решения. </div>
+		<div class="minus_list">Ограниченное число читаемых меток. Существует практическое ограничение на количество меток, которые можно прочитать за определенное время. </div>
+		<div class="minus_list">Воздействие помех от аппаратуры. На RFID-решение может отрицательно влиять неправильная установка аппаратуры (например, расположение и ориен­тация антенны).</div>
+		<div class="minus_list">Воздействие помех от аппаратуры. На RFID-решение может отрицательно влиять неправильная установка аппаратуры (например, расположение и ориен­тация антенны).</div>
+	</div>
+</section>
 
+<a href="index.html#main" class="back"><div id="back_1">Обратно на главную</div></a>
 
+<section class="critic">	
+	<h3 id="critical">Критика</h3>
+	<div class="quote">«Как бы вам понравилось, если бы, скажем, в один прекрасный день<br> обнаружилось, что ваше нижнее бельё распространяет информацию<br> о вашем местонахождении?»<br>
+<span><b>Дебра Боуэн, сенатор штата Калифорния
+<br>на слушаниях 2003 года</b></span></div>
+	<p>Использование RFID-меток вызвало серьёзную полемику, критику и даже бойкотирование товаров. <b>Четыре основных проблемы этой технологии</b>, связанные с неприкосновенностью частной жизни, следующие:</p>
+	<ul>
+ <li>- Покупатель может даже не знать о наличии RFID-метки. Или не может её удалить</li>
+ <li>- Данные с метки могут быть считаны дистанционно без ведома владельца</li>
+ <li>- Если помеченный предмет оплачивается кредитной картой, то возможно однозначно связать уникальный идентификатор метки с покупателем</li>
+ <li>- Система меток EPCGlobal создаёт или предполагает создание уникальных серийных номеров для всех продуктов, несмотря на то, что это создаёт проблемы с неприкосновенностью частной жизни и совершенно не является необходимым для большинства приложений</li>
+	</ul>
+	<img src="img/NFC_teaser_01_teaser.jpg" alt="">
+	<p>Основное беспокойство вызывается тем, что иногда RFID-метки остаются в рабочем состоянии даже после того, как товар куплен и вынесен из магазина, и поэтому могут быть использованы для слежки и других неблаговидных целей, не связанных с инвентаризационной функцией меток. Считывание с небольших расстояний также может представлять опасность, если, например, считанная информация накапливается в базе данных, или грабитель использует карманный считыватель для оценки богатства проходящей мимо потенциальной жертвы. Серийные номера на RFID-метках могут выдавать дополнительную информацию даже после избавления от товара. Например, метки в перепроданных или подаренных вещах могут быть использованы для установления круга общения человека.
+<br><br>
+Эксперты по безопасности настроены против использования технологии RFID для аутентификации людей, основываясь на риске кражи идентификатора. Например, атака «человек посередине» делает возможным атакующему в реальном времени украсть идентификатор личности. На данный момент, из-за ограничений в ресурсах RFID меток, теоретически не представляется возможным защитить их от таких моделей атак, поскольку это потребует сложных протоколов передачи данных</p>
+</section>
 
+<a href="index.html#main" class="back"><div id="back_1">Обратно на главную</div></a>
 
 </div>
 
+<footer>
+	<section>
+		<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1611.3039045314945!2d39.62748763220822!3d47.21894288892379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3bf4ac0177bc9%3A0x936b9368bbf28b2a!2z0J3QmtCi0JEgwqvQn9GM0LXQt9C-0L_RgNC40LHQvtGAwrsg0K7QpNCj!5e0!3m2!1sru!2sua!4v1525447064510" width="100%" height="100%" frameborder="0" style="border:0" target='_blank'></iframe></div>
+		<div class="footer_info">
+			<ul>
+				<li><a href="https://goo.gl/maps/QaxDNUTkHFC2" target="_blank">г. Ростов-на-Дону<br>ул. Мильчакова 10</a></li>
+				<li><a href="tel:89632434811" target="_blank">+7(863) 243-48-11</a></li>
+				<li><a href="http://www.fvt.sfedu.ru" target="_blank">http://www.fvt.sfedu.ru</a></li>
+			</ul>
+		</div>
+	</section>
+	<section>
+		<div class="caption"><h4>ПРОЕКТЫ</h4></div>
+		<div class="links">
+			<ul>
+				<li>RFID-технологии</li>
+				<li><a href="download/RFID-technology.docx" download="">Скачать документ</a></li>
+				<li>История компании IBM</li>
+				<li><a href=""></a>Скачать документ</li>
+			</ul>
+		</div>
+	</section>
+</footer>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/waves.min.js"></script>
 <script type="text/javascript">
-    Waves.attach('#submenu li, .menu li, back_1, back_2', ['waves-block', 'waves-float']);
+    Waves.attach('#submenu li, .menu li, back_1', ['waves-block', 'waves-float']);
     Waves.init();
 </script>     
 <script src="js/nprogress.js"></script>
