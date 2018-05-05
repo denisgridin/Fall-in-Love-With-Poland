@@ -120,7 +120,7 @@ footer .links a:hover{text-decoration:none;color:#333;}
 .assess h4{text-align:center;font-size:30px;padding-bottom:30px;}
 .assess .plus h4{color:#87d9b8;}
 .assess .minus h4{color:#dc4a64;}
-.assess .plus .plus_list{padding:10px 10px 0px 60px;background:url(../img/plus.svg);background-size:40px 40px;background-repeat:no-repeat;text-align:left;}
+.assess .plus .plus_list{height: auto;padding:10px 10px 0px 60px;background:url(../img/plus.svg);background-size:40px 40px;background-repeat:no-repeat;text-align:left;}
 .assess .minus .minus_list{padding:10px 10px 0px 60px;background:url(../img/minus.svg);background-size:40px 40px;background-repeat:no-repeat;text-align:left;}
 .critic h3{font-size:30px;text-align:center;color:#4b0082;margin-bottom:20px;}
 .critic .quote{text-align:right;padding-right:10%;color:#808080;letter-spacing:1px;line-height:30px;margin-bottom:40px;}
