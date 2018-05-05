@@ -43,13 +43,13 @@
 			<hr>
 		<a  href="javascript://0" onclick="slowScroll ('#back_1')" onmouseover="openMenu()" onmouseup="closeMenu()"><li>Применение</li></a>
 			<hr>
-		<a  href="javascript://0" onclick="slowScroll ('#components')" onmouseover="openMenu()" onclick="closeMenu()"><li>Компоненты</li></a>
+		<a  href="javascript://0" onclick="slowScroll ('#components')" onmouseover="openMenu()"  onmouseup="closeMenu()"><li>Компоненты</li></a>
 			<hr>
-		<a  href="javascript://0" onclick="slowScroll ('#critical')" onmouseover="openMenu()" onclick="closeMenu()"><li>Критика</li></a>
+		<a  href="javascript://0" onclick="slowScroll ('#critical')" onmouseover="openMenu()"  onmouseup="closeMenu()"><li>Критика</li></a>
 			<hr>
-		<a href="javascript://0" onclick="slowScroll ('#pluses')" onmouseover="openMenu()" onclick="closeMenu()"><li>Плюсы</li></a>
+		<a href="javascript://0" onclick="slowScroll ('#pluses')" onmouseover="openMenu()"  onmouseup="closeMenu()"><li>Плюсы</li></a>
 			<hr>
-		<a href="javascript://0" onclick="slowScroll ('#minuses')" onmouseover="openMenu()" onclick="closeMenu()"><li>Минусы</li></a></ul>
+		<a href="javascript://0" onclick="slowScroll ('#minuses')" onmouseover="openMenu()"  onmouseup="closeMenu()"><li>Минусы</li></a></ul>
 			<hr>
 </div>
 
@@ -214,7 +214,7 @@
 </script>
 <script>
   function slowScroll (id) {
-    var offset = 0;
+    var offset = 60;
     $('html, body').animate ({
       scrollTop: $(id).offset ().top - offset
     }, 500);
