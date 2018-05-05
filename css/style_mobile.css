@@ -112,8 +112,8 @@ footer .caption{display:none;}
 footer .links{margin:0px auto;}
 footer .links li:nth-child(1){color:#1081e0;list-style:none;font-weight:bold;letter-spacing:1px;padding-bottom:5px;}
 footer .links li:nth-child(3){color:#1081e0;list-style:none;font-weight:bold;letter-spacing:1px;padding-bottom:5px;}
-footer .links li:nth-child(2){color:#808080;list-style:none;padding-bottom:15px;line-height:30px;background:url(../img/download.svg);background-repeat:no-repeat;background-size:30px auto;background-position:160px 0px;}
-footer .links li:nth-child(4){color:#808080;list-style:none;padding-bottom:15px;line-height:30px;background:url(../img/download.svg);background-repeat:no-repeat;background-size:30px auto;background-position:160px 0px;}
+footer .links li:nth-child(2){color:#808080;list-style:none;padding-bottom:15px;line-height:30px;background:url(../img/download.svg);background-repeat:no-repeat;background-size:30px auto;background-position:170px 0px;}
+footer .links li:nth-child(4){color:#808080;list-style:none;padding-bottom:15px;line-height:30px;background:url(../img/download.svg);background-repeat:no-repeat;background-size:30px auto;background-position:170px 0px;}
 footer .links a{text-decoration:none;color:#808080;}
 footer .links a:hover{text-decoration:none;color:#333;}
 .assess{display:grid;grid-template-rows:1fr 1fr;padding:30px;color:#808080;grid-gap:40px;letter-spacing:1px;}
