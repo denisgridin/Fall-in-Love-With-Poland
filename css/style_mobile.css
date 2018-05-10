@@ -16,7 +16,7 @@ input, button{outline:none;}
 .menu_phone #hamburger{background:url(../img/menu.png);background-size:cover;width:25px;height:25px;float:right;margin:7.5px 15px;display:block;transition:.3s;}
 .menu_phone #close{background:url(../img/close.png);background-size:cover;width:25px;height:25px;float:right;margin:7.5px 15px;position:absolute;right:0px;display:none;}
 .menu{display:none;}
-.rfid_vid{width:60%;height:20%;padding:0px 20%;}
+.rfid_vid{width:60%;height:20%;margin:0px 20%;box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
 .main{overflow-x:hidden;}
 .main_content p{width:80%;padding:0px 10%;color:#808080;text-align:center;letter-spacing:1px;font-size:16px;margin:15px 0px;}
 .main_content{margin-top:50px;padding-top:20px;padding-bottom:20px;}
@@ -128,4 +128,10 @@ footer .links a:hover{text-decoration:none;color:#333;}
 .critic p{color:#808080;padding:0px 30px;line-height:30px;margin-bottom:20px;}
 .critic li{color:#808080;list-style:none;border-left:6px solid #4b0082;padding-left:26px;line-height:36px;}
 .critic img{width:100%;height:auto;margin:50px auto;box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+.ibm_wrap{width:85%;background:white;position:relative;top:50px;margin:0px 7.5%;box-shadow:0px 2px 8px #999999;padding:10px 0px;box-sizing:border-box;}
+.foundation{color: #808080;}
+.foundation p {padding: 20px 0px}
+.foundation .foundation_1{width:100%;color:#808080;padding:20px 40px;box-sizing:border-box; align-items: center;}
+.foundation .foundation_2{width:100%;color:#808080;padding:20px 40px;box-sizing:border-box; align-items: center;}
+.foundation img{width: 100%; height: auto;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
 }
