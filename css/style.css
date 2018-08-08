@@ -4,7 +4,6 @@
 }
 
 body{
-	height: 200vh;
 	font-family: 'Montserrat';
 	overflow-x: hidden;
 }
@@ -243,6 +242,10 @@ a{
 
 }
 
+.card-group{
+	padding-left: 8%;
+}
+
 .card-group .row{
 	width: 100%;
 }
@@ -294,7 +297,7 @@ a{
 
 .page-explore{
 	background:#f8fafb;
-	padding-bottom: 30px;
+	padding-bottom: 45px;
 	overflow-x: hidden;
 }
 
