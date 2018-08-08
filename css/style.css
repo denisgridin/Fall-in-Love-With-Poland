@@ -6,6 +6,7 @@
 body{
 	height: 200vh;
 	font-family: 'Montserrat';
+	overflow-x: hidden;
 }
 
 .top-page{
@@ -80,7 +81,7 @@ a{
 .places-page{
 	position: absolute;
 	top: 80vh;
-	hidden: hidden;
+	overflow-x: hidden;
 }
 
 .places-page .card{
