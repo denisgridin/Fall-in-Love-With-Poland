@@ -75,7 +75,7 @@ a{
 
 .info-bottom{
 	text-align: center;
-	margin-top: 50px;;
+	margin-top: 20px;;
 }
 
 .places-page{
@@ -379,6 +379,7 @@ a{
 .page-enjoy{
 	background: url(../img/enjoy-background.jpg);
 	background-position: 50% 100%;
+	background-repeat: no-repeat;
 	padding: 120px 30px;
 }
 
