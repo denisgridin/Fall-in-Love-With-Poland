@@ -1,433 +1,145 @@
 *{
 	margin: 0;
-	padding: 0;
+	padding: 0;	
 }
 
-body{
-	font-family: 'Montserrat';
-	overflow-x: hidden;
+
+.logo{
+	width: 212px;
 }
 
-.top-page{
-	height: 100vh;
-	background: linear-gradient( 
-        rgba(1, 0, 0, 0.67),
-        rgba(1, 0, 0, 0.67)
-		) 
-	, url(../img/background.jpg);
-	background-size: auto 100%, auto 100%;
-	overflow: hidden;
-
+.shopping_cart{
+	width: 21px;
+	cursor: pointer;
 }
 
-a{
-	transition: .2s;
-	text-decoration:none;
-}
-
-.nav-brand img{
-	height: 40px;
-	width: auto;
-}
-
-.menu-button{
-	width: 27px;
-	height: 27px;
-}
-
-.title{
-	font-size: 3.5rem;
-	font-weight: bolder;
-	color: #FFFFFF;
-	text-align: center;
-	padding-top: 12vh;
-}
-
-.title span{
-	color: #ed6950;
-}
-
-.subtitle{
-	color: #b1b3b6;
-	text-align: center;
-}
-
-.more{
-	color: #b98000;
-	background: #ffc74a;
-	padding: 10px 10px;
-	text-align: center;
-	border-radius: 25px;
-	transition: .3s;
+.nav-link{
+	font-family: Sintony;
+	font-size: 0.875rem;
+	font-weight: 700;
+	line-height: 30px;
 	text-transform: uppercase;
-	margin: 30px auto;
-	font-weight: bold;
-}
-
-.more:hover{
-	text-decoration: none;
-	color: #b98000;
-	background: #ffce61;
-	font-weight: bold;
-
-}
-
-.info-bottom{
-	text-align: center;
-	margin-top: 50px;;
-}
-
-.places-page{
-	position: absolute;
-	top: 80vh;
-	overflow-x: hidden;
-}
-
-.places-page .card{
-	border-radius: 0px;
-	border: 0px solid transparent;
-
-}
-
-.places-page .places-title{
-	color: white;
-	font-weight:bold;
-	text-align:center;
-	font-size: 1.2rem;
-	margin-top: 90%;
-	margin-bottom:5px;
-}
-
-.places-page .places-subtitle{
-	color: #ffc74a;
-	font-family: Montserrat;
-	font-size: 0.75rem;
-}
-
-.places{
+	letter-spacing: 0.35px;
+	color: #2c465a;
 	transition: .3s;
 }
 
-.places .descr{
-	opacity: 0;
-	background: linear-gradient( 
-		rgba(1, 0, 0, 0.1),
-		rgba(1, 0, 0, 0.8)
-		);
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	transition: margin-top .3s, linear .3s;
 
+.nav-item{
+	padding: 0px 5px;
+	cursor: pointer;
+	color: #2c465a;
+	transition:.3s;
 }
 
-.places:hover .descr{
+.nav-item:hover{
+	opacity: 0.7;
+}
+
+.nav-item:hover .dropdown-item{
 	opacity: 1;
 }
 
-.places:hover .card-title, .card-subtitle{
-	display: none;
-}
 
-.card-subtitle{
-	display: block;
-}
-
-.places:hover .card-subtitle{
-	display: none;
-}
-
-.descr-title{
-	color: white;
-	font-weight:bold;
-	text-align:center;
-	font-size: 1.8rem;
-	margin-top: 45%;
-	margin-bottom:5px;
-}
-
-.descr-subtitle{
+.badge-nav{
+	background: #fe4c8d;
 	color: #ffffff;
-	font-family: Montserrat;
-	font-size: 0.75rem;
-}
-
-.offers{
-	color: #b98000;
-	font-family: Montserrat;
-	font-size: 0.7rem;
-	font-weight: 700;
-	line-height: 92px;
-	text-transform: uppercase;
-	letter-spacing: 1.05px;
-	background: #ffc74a;
-	border-radius: 20px;
-	padding: 10px 20px;
-}
-
-.offers:hover{
-	text-decoration: none;
-	color: #b98000;
-	background: #ffce61;
-	font-weight: bold;
-
-}
-
-
-.page-examples{
-	padding-top: 190px;
-	background: #ffffff;
-	overflow-x: hidden;
-}
-
-
-@media only screen and (max-width:579px) and (min-width:0px){
-	.page-examples{
-	padding-top: 40px;
-	background: #ffffff;
-	overflow-x: hidden;
-}
-}
-
-
-.page-examples h5{
-	font-weight: 1000;
-	color: #606f81;
-}
-
-#search{
-	box-shadow: 0 0 85px rgba(141, 148, 169, 0.15);
-	background-color: #ffffff;
-	padding: 20px 30px;
-	font-size: 0.875rem;
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABUElEQVQ4jYXSP0iVYRQG8N+9pOCUIoQZFSIu4piTTlLcIZpsS9pCcBEXFzd1cmuuQfxTNBbiJEZDYBDhFQRBHBzUxdk/qPc2fOeTl4+r91nOc97vfZ73nO+cUn1rSIJeTOAlnuAM2/iKb6gpoJQYTGMeLcVLgb94i8P08EHEmRBDHT+xi3ZU8Agv8CviaVrBAKoo4xij2EoeacNHfIh8Ge/zj2VMRbzBm4IYzjGO9cjH8Dg1qARfx787+q8nLZZkP/nWoDv4zh3iHNWEP00NLoM/bGLQnvCL1GA7+Gu03mMw2qiaMlaC92BB1mMR/ZgNfiQb563BJ+xFPokfGEYHnsum9Dtp4Quuc4N8E/uwgWf3tJCjJtuD1bwC2McgFmX7UMQB5nAVmiW8SytI0YkRdIWgij/x8it8l21nDWONDJphBGthclJucrkRNmUj38Xn/yVuS1c2//RLAAAAAElFTkSuQmCC) no-repeat;
-	background-position: 97% 50%;
-	border: 0px solid transparent;
-	border-radius: 20px;
-}
-
-.categories{
-	font-size: 0.8125rem;
-}
-
-.category-1 div{
-	padding: 5px 10px;
-	margin: 2px 4px;
-	background: #bdc8d9;
-	color: #ffffff;
-	border-radius: 20px;
-	transition: .3s;
-	cursor: pointer;
-	border: 1px solid #f2f4f6;
-	font-weight: 600;
-}
-.category-1 div:hover{
-	background: #ffc74a;
-	color: #ffffff;
-
-}
-
-.categories .active{
-	background: #ffc74a;
-	color: #ffffff;
-}
-
-
-
-
-.category-2 div{
-	padding: 5px 10px;
-	margin: 2px 4px;
-	background: #ffffff;
-	color: #8d97a5;
-	border-radius: 20px;
-	transition: .3s;
-	cursor: pointer;
-	border: 1px solid #f2f4f6;
-	font-weight: 600;
-}
-.category-2 div:hover{
-	background: #8d97a5;
-	color: #ffffff;
-
-}
-
-.card-group{
-	padding-left: 8%;
-}
-
-.card-group .row{
-	width: 100%;
-}
-
-.page-examples .card-title {
-	font-weight: 600;
-	color: #606f81;
-	font-size: 1.4375rem;
-
-
-}
-
-.page-examples .card-subtitle {
-	font-weight: 600;
-	color: #9fa8b2;
-	font-size: 0.75rem;
-
-}
-
-.page-examples .card{
-	padding: 10px;
-}
-
-.page-example .card-body{
-	height: auto;
-}
-
-.card-offers{
-	color: #bdc8d9;
-	background:#ffffff;
-	padding: 10px 20px;
-	border-radius: 25px;
-	text-transform:uppercase;
-	font-size: 0.75rem;
-	font-weight:600;
-	box-shadow: 0 0 54px rgba(141, 148, 169, 0.25);
-}
-
-.card-offers:hover{
-	color: #b98000;
-	background:#ffc74a;
-	text-decoration:none;
-}
-
-.card{
-	box-shadow: 0 0 85px rgba(141, 148, 169, 0.15);
-}
-
-
-.page-explore{
-	background:#f8fafb;
-	padding-bottom: 45px;
-	overflow-x: hidden;
-}
-
-.explore{
-	text-shadow: 0 0 125px rgba(141, 148, 169, 0.25);
-	color: #ffffff;
-	font-family: Montserrat;
-	font-size: 11.875rem;
-	font-weight: bolder;
-	line-height: 140px;
-	text-transform: uppercase;
-	text-align: right;
-	position: absolute;
-	margin-left: 53%;
-}
-
-.page-explore h5{
-	font-weight: 1000;
-	color: #606f81;
-}
-
-.page-explore img{
-	height: 450px;
-	width: auto;
-	z-index: 1000;
+	border-radius: 50%;
 	position: relative;
+	top: -8px;
+	left: -10px;
 }
 
-.page-explore .explore-border{
-	height: 450px;
-	width: 462px;
-	position: absolute;
-	top: 30px;
-	left: 40px;
-	border: 10px solid #ffc74a;
-	background-color: transparent;
-	z-index: 100;
-
+.dropdown{
+	z-index: 10;
+	opacity: 1;
 }
 
-.page-explore p{
-	color: #606f81;
-	font-family: Montserrat;
-	font-size: 0.8125rem;
-	font-weight: 500;
-	line-height: 25px;
-	/* Text style for "S, andomie" */
-	letter-spacing: 0.14px;
+.dropdown:hover{
+	z-index: 10;
+	opacity: 1;
 }
 
-.page-explore h4{
-	color: #f8c759;
-	font-family: Montserrat;
-	font-size: 2rem;
-	font-weight: 700;
-	line-height: 92.97px;
-	/* Text style for "Sandomierz" */
-	letter-spacing: 0.36px;
+.nav-link:nth-child(8){
+	padding-top: 5px;
 }
 
-.explore-offers{
-	padding: 10px 20px;
-	border-radius: 25px;
-	text-transform:uppercase;
-	font-size: 0.75rem;
-	font-weight:600;
-	color: #b98000;
-	background:#ffc74a;
-	text-decoration:none;
-	margin-top: 50px;
-	transition:.3s;
+.navbar-nav .nav-item:last-child{
+	background: url(../img/1475856660_food-drink-36.png.png) no-repeat 12px 30%;
+	padding-left: 45px;
+	background-color: #fea100;
+	border-radius: 7px;
+	border: 2px solid #ffffff;
+	box-shadow: 0px 0px 0px 3px #fea100;
+	max-width: 190px;
 }
 
-.explore-offers:hover{
-	text-decoration:none;
-	color: #b98000;
-	background: #ffce61;
-	box-shadow: 0 0 54px rgba(141, 148, 169, 0.25);
-	transition:.3s;
+.carousel-indicators li{
+	background: url(../img/carousel-white.png) no-repeat;
+	top: 0px;
+	width: 20px;
+	height: 20px;
 }
 
-.page-enjoy{
-	background: url(../img/enjoy-background.jpg);
-	background-position: 50% 100%;
-	background-repeat: no-repeat;
-	padding: 120px 30px;
+.carousel-indicators .active{
+	background: url(../img/carousel.png) no-repeat;
 }
 
-.page-enjoy h1{
+.carousel-indicators{
+	display: block;
+	position:absolute;
+	top: 45%;
+	left: 30px;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.carousel-caption{
 	color: #ffffff;
-	font-family: Montserrat;
-	font-size: 3.75rem;
+	font-family: "Playfair Display";
+	font-size: 3.5rem;
 	font-weight: 700;
-	line-height: 92px;
+	line-height: 50px;
+	bottom: 0;
+	top: 30%;
+	text-align: left;
 }
 
-.sign-up{
-	padding: 10px 20px;
-	border-radius: 25px;
-	text-transform:uppercase;
-	font-size: 0.75rem;
-	font-weight:600;
-	color: #b98000;
-	background:#ffc74a;
-	text-decoration:none;
-	margin: 30px auto;
+.carousel-caption span{
+	font-size: 2.5rem;
 }
 
-.sign-up:hover{
-	text-decoration:none;
-	color: #b98000;
-	background: #ffce61;
+.span-luxury{
+	color: #fea100;
 }
 
-.newsletter{
-	color: #ffc74a;
-	text-decoration: underline;
+.reviews{
+	height: 100px;
+	background: #edf1f3;
 }
-.newsletter:hover{
-	color: #ffc74a;
-	text-decoration: underline;
-	text-shadow: 0px 0px 5px #333333
+.container{
+	width: 75%;
+}
+
+.reviews img{
+	position: relative;
+	width: 130px;
+	top: -90px;
+}
+
+@media only screen and (max-width: 765px) and (min-width: 0px) {
+	.carousel-caption{
+	color: #ffffff;
+	font-family: "Playfair Display";
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 40px;
+	bottom: 0;
+	top: 10%;
+	text-align: left;
+}
+
+.carousel-caption span{
+	font-size: 1.5rem;
+}
 }
