@@ -144,11 +144,25 @@
 
 .carousel-indicators li{
 	background: url(../img/carousel-white.png) no-repeat;
+	background-size: 70% 70%;
 	top: 0px;
 	width: 10px;
 	height: 10px;
 }
 
+.carousel-indicators .active{
+	background: url(../img/carousel.png) no-repeat;
+	background-size: 70% 70%;
+}
+
+.carousel-indicators{
+	display: block;
+	position:absolute;
+	top: 45%;
+	left: 20px;
+	padding-left: 0px;
+	margin: 0px;
+}
 
 }
 
