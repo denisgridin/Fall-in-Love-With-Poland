@@ -1,97 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!--Meta-tags-->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Luxury restorant</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<title>Fall in love with Poland</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" type="image/x-icon" href="img/diamond.png">	
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Sintony" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="img/Logo.png">
+	<!---->
 </head>
 <body>
-<!-----------------------------------------NAVIGATION----------------------------------------->	
-	<div class="container"  style="width: 100%;">
-		<nav class="navbar navbar-expand-lg">
-			<a href="#" class="navbar-brand"><img class="logo" src="img/logo.jpg" alt="Luxury restorant"></a>
-			<button class="navbar-toggler gray" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"><img src="img/menu.png" alt=""></span>
-			  </button>
-			<div class="collapse navbar-collapse" id="navMenu">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Reservation</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Recipe</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Pages</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-					<li class="nav-item dropdown">
-					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					         	<img src="img/Shopping Cart-27.png.png" alt="shopping_cart">
-					         	<span class="badge badge-nav">3</span>
-					        </a>
-					        <div class="dropdown-menu mb-2 mt-1" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#">Order 1</a>
-					          <a class="dropdown-item" href="#">Order 2</a>
-					          <a class="dropdown-item" href="#">Order 3</a>
-							</div>
-					      </li>
-					<li class="nav-item ml-2"><a href="#" class="nav-link text-white book-button">Book our table</a></li>
-				</ul>
+	<section class="top-page">
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg">
+				<div class="nav-brand ml-0 mr-auto"><img src="img/Logo.png" alt="Poland"><span class="text-white font-weight-bold ml-1 mb-0 pb-0">Poland</span></div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Navigation">
+					<span><img src="img/menu.svg" alt="menu" class="menu-button"></span>
+				</button>
+
+
+				<div class="navbar-collapse collapse justify-content-end" id="navbarMenu">
+					<div class="nav-item">
+						<a href="#" class="nav-link text-light font-weight-light">Guide</a>
+					</div>
+					<div class="nav-item">
+						<a href="#" class="nav-link text-light font-weight-light">Journey</a>
+					</div>
+					<div class="nav-item">
+						<a href="#" class="nav-link text-light font-weight-light">Hotels</a>
+					</div>
+					<div class="nav-item">
+						<a href="#" class="nav-link text-light font-weight-light">Trevelers</a>
+					</div>
+					<div class="nav-item">
+						<a href="#" type="" class="nav-link py-auto search-button" onclick="slowScroll('#search')"><img src="img/Search.png" alt="search"></a>
+					</div>
+				</div>
+			</nav>
+			<div class="main-text">
+				<h1 class="title display-1 align-self-middle">Fall in love <br> <span class="red-main-text">with Poland</span></h1>
+				<h6 class="subtitle">Best way to find your perfect place in Poland</h6>
 			</div>
-		</nav>
-	</div>
-<!----------------------------------------/-NAVIGATION-/---------------------------------------->	
-
-
-<!-------------------------------------------CAROUSEL------------------------------------------->
-	<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-	  <ol class="carousel-indicators">
-	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	  </ol>
-	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img class="d-block w-100" src="img/main-image.jpg?auto=yes" alt="First slide" style="min-height: 400px;">
-	      <div class="carousel-caption clearfix">Teast your fav dish <br><span>from <span class="span-luxury">luxury restaurent.</span></span>
-									<h3>slide 1</h3>
-									<h2 class="float-right">Image 1970x570</h2>
-	      </div>
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="img/main-image.jpg?auto=yes"  alt="Second slide" style="min-height: 400px;">
-	      <div class="carousel-caption clearfix">Teast your fav dish <br><span>from <span class="span-luxury">luxury restaurent.</span></span>
-									<h3>slide 2</h3>
-									<h2 class="float-right">Image 1970x570</h2>
-	      </div>
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="img/main-image.jpg?auto=yes" alt="Third slide" style="min-height: 400px;">
-	      <div class="carousel-caption clearfix">Teast your fav dish <br><span>from <span class="span-luxury">luxury restaurent.</span></span>
-									<h3>slide 3</h3>
-									<h2 class="float-right">Image 1970x570</h2>
-	      </div>
-	    </div>
-	  </div>
-	</div>
-
-	<section class="reviews">
-		<div class="container">
-			<div class="food-menu">
-				<img src="img/violet_shape.png" alt="Explore food menu" class="d-none d-md-block">	
+			<div class="row mx-3">
+				<a href="#" class="more col-lg-2 col-sm-5 col-8 shadow-lg d-none d-md-block" class="justify-content-end" onclick="slowScroll('#anchor')">search our place</a>
 			</div>	
+			<h6 class="text-white info-bottom  d-none d-md-block" id="anchor">Popular places to discover</h6>
+		</div>
+	</section>
+	<section class="places-page">
+		<div class="container-fluid d-none d-sm-block">
+			<div class="row d-flex justify-content-between text-center justify-content-sm-center justify-content-center">
+				<div class="col d-none d-lg-block">					
+					<div class="card rounded-0 places">
+						<img src="img/Krakow.jpg" alt="Krakow" class="card-img rounded-0 gray">
+							<div class="card-img-overlay">
+								<div class="card-title places-title">Kraków</div>
+								<div class="card-subtitle places-subtitle">Małopolskie</div>
+							</div>
+							<div class="descr shadow">
+								<div class="descr-title">Kraków</div>
+								<div class="descr-subtitle">Małopolskie</div>			
+								<a href="#" class="offers col-sm-1 mt-sm-0 shadow ">view offers</a>					
+							</div>
+					</div></div>
+				<div class="col">					
+					<div class="card rounded-0 places">
+						<img src="img/Zakopane.jpg" alt="Zakopane" class="card-img rounded-0">
+							<div class="card-img-overlay">
+								<div class="card-title places-title">Zakopane</div>
+								<div class="card-subtitle places-subtitle">Swietokrzyskie</div>
+							</div>
+							<div class="descr shadow">
+								<div class="descr-title">Zakopane</div>
+								<div class="descr-subtitle">Swietokrzyskie</div>			
+								<a href="#" class="offers col-sm-1 mt-sm-0 shadow ">view offers</a>					
+							</div>
+
+					</div>
+				</div>
+				<div class="col">
+					<div class="card rounded-0 places">
+						<img src="img/Sandomierz_2.jpg" alt="Sandomierz" class="card-img rounded-0">
+							<div class="card-img-overlay">
+								<div class="card-title places-title">Sandomierz</div>
+								<div class="card-subtitle places-subtitle">Małopolskie</div>
+							</div>
+							<div class="descr shadow">
+								<div class="descr-title">Sandomier</div>
+								<div class="descr-subtitle">Małopolskie</div>			
+								<a href="#" class="offers col-sm-1 mt-sm-0 shadow ">view offers</a>					
+							</div>
+					</div>
+				</div>
+				<div class="col">					
+					<div class="card rounded-0 places">
+						<img src="img/Sopot.jpg" alt="Sopot" class="card-img rounded-0">
+							<div class="card-img-overlay">
+								<div class="card-title places-title">Sopot</div>
+								<div class="card-subtitle places-subtitle">Pomorskie</div>
+							</div>
+							<div class="descr shadow">
+								<div class="descr-title">Sopot</div>
+								<div class="descr-subtitle">Pomorskie</div>			
+								<a href="#" class="offers col-sm-1 mt-sm-0 shadow ">view offers</a>					
+							</div>
+					</div></div>
+				<div class="col d-none d-lg-block">					
+					<div class="card rounded-0 places">
+						<img src="img/Morskie Oko.jpg" alt="Morskie Oko" class="card-img rounded-0">
+							<div class="card-img-overlay">
+								<div class="card-title places-title">Morskie Oko</div>
+								<div class="card-subtitle places-subtitle">Małopolskie</div>
+							</div>
+							<div class="descr shadow">
+								<div class="descr-title">Morskie Oko</div>
+								<div class="descr-subtitle">Małopolskie</div>			
+								<a href="#" class="offers col-sm-1 mt-sm-0  shadow">view offers</a>					
+							</div>
+					</div></div>
+			</div>
 		</div>
 		
 	</section>
 
+	<section class="page-examples pb-3">
+		<h5 class="text-center">Where do you want to go?</h5>
+		<input type="search" class="form-control col-lg-5 col-md-7 col-9 col-sm-9 mx-auto mt-5 search" id="search" placeholder="Search place ">
+		<div class="col-lg-5 col-md-7 col-12 col-sm-12 mx-auto mt-3 d-flex flex-inline categories" >
+			<div class="category-1 d-lg-inline-flex d-sm-inline-flex mr-auto">
+				<div class="active">Journey</div>
+				<div>Travelers</div>
+				<div>Guide</div>
+			</div>
+			<div class="category-2 d-lg-inline-flex d-sm-inline-flex">
+				<div>Mazury</div>
+				<div>Krakow</div>
+				<div>Zacopane</div>
+			</div>
 
+		</div>
+	<div class="card-group mt-3">
+		<div class="row justify-content-center">
+			<div class="card col-lg-3 col-sm-7 col-9 mb-3 border-0 text-center">
+				<img src="img/Poznan.jpg" alt="Poznan" class="card-img-top">
+				<div class="card-body">
+					<div class="card-title mb-0">Poznan</div>
+					<div class="card-subtitle">Wielkopolskie</div>
+					<a href="#" class="card-offers mt-3 btn">view offers</a>
+				</div>
+			</div>	
+			<div class="card col-lg-3 col-sm-7 col-9 mb-3 border-0 text-center ml-3 mr-3">
+				<img src="img/Warsaw.jpg" alt="Warsaw" class="card-img-top">
+				<div class="card-body">
+					<div class="card-title mb-0 ">Warsaw</div>
+					<div class="card-subtitle">Mazowieckie</div>
+					<a href="#" class="card-offers mt-3 btn">view offers</a>
+				</div>
+			</div>
+			<div class="card col-lg-3 col-sm-7 col-9 mb-3 border-0 text-center">
+				<img src="img/Wroclaw.jpg" alt="Wroclaw" class="card-img-top">
+				<div class="card-body">
+					<div class="card-title mb-0">Wroclaw</div>
+					<div class="card-subtitle">Dalnoslaskie</div>
+					<a href="#" class="card-offers mt-3 btn">view offers</a>
+				</div>
+			</div>												
+		</div>	
 
+		<div class="row justify-content-center">
+			<div class="card col-lg-3 col-sm-7 col-9 mb-3 border-0 text-center">
+				<img src="img/Karpacz.jpg" alt="Karpacz" class="card-img-top">
+				<div class="card-body">
+					<div class="card-title mb-0">Karpacz</div>
+					<div class="card-subtitle">Dalnoslaskie</div>
+					<a href="#" class="card-offers mt-3 btn">view offers</a>
+				</div>
+			</div>	
+			<div class="card col-lg-3 col-sm-7 col-9 mb-3 border-0 text-center ml-3 mr-3">
+				<img src="img/Dolina.jpg" alt="Dolina Olczyska" class="card-img-top">
+				<div class="card-body">
+					<div class="card-title mb-0">Dolina Olczyska</div>
+					<div class="card-subtitle">Malopolskie</div>
+					<a href="#" class="card-offers mt-3 btn">view offers</a>
+				</div>
+			</div>
+			<div class="card col-lg-3 col-sm-7 col-9 mb-3 border-0 text-center">
+				<img src="img/Kozy.jpg" alt="Kozy" class="card-img-top">
+				<div class="card-body">
+					<div class="card-title mb-0">Kozy</div>
+					<div class="card-subtitle">Slaskie</div>
+					<a href="#" class="card-offers mt-3 btn">view offers</a>
+				</div>
+			</div>												
+		</div>				
+	</div>
+	</section>
+	<section class="page-explore clearfix pt-5">
+		<h5 class="text-center">Explore city</h5>
+		<div class="explore d-none d-md-block">san<br>drom<br>mierz</div>
+		<div class="row clearfix justify-content-center mt-5">
+			<div class="col-lg-4 col-sm-5 col-8 mr-5">
+				<h4>Sandromierz</h4>
+				<p class="mb-4">Sandomierz is one of the oldest and historically most significant cities in Poland. Archeological finds around the city indicate that humans have inhabited the area since neolithic times. The city came into existence in the early Middle Ages, taking advantage of an excellent location at the junction of Vistula and San rivers, and on the path of important trade routes. 
+					<br><br>
+				The first known historical mention of the city comes from the early 12th-century, when the chronicler Gallus Anonymus ranked it together with Kraków and Wrocław as one of the main cities of Poland. The testament (ca 1115-1118) of Bolesław III Wrymouth, in which he divided Poland among his sons, designated Sandomierz as the capital of one of the resulting principalities, the Duchy of Sandomierz.
+				</p>
+				<a href="#" class="explore-offers mt-5">check offers</a>
+			</div>
+			<div class="col-lg-4 col-sm-5 col-8 mt-5">
+				<div class="explore-border"></div>
+				<img src="img/Sandrom.jpg" alt="Sandromierz">
+			</div>
+		</div>
+	</section>
+	<section class="page-enjoy ">
+		<h1 class="text-center">Enjoy your journey</h1>
+		<div class="row">
+			<a href="#" class="sign-up col-lg-1 col-md-4 col-sm-3 justify-self-center text-center">sign up</a>
+		</div>	
+		<span class="text-center d-block text-white">You can also sign up on our <a href="#" class="newsletter">newsletter</a></span>
+	</section>
 
-<!--Bootstrap-->	
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+  function slowScroll (id) {
+    var offset = 20;
+    $('html, body').animate ({
+      scrollTop: $(id).offset ().top - offset
+    }, 500);
+    return false;
+  }
+  </script>
+
 </body>
 </html>
